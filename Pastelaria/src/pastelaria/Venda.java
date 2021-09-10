@@ -36,8 +36,8 @@ public class Venda {
 	}
 	
 	public String toString() {
-		return "\n\t****Venda****\n\n" + pedidoLocal + "\n"+ pDelivery + "\nFormaPagamento:" + formaPagamento
-				+ "\nValor Total:" + valor;
+		return "\n\t****Venda****\n\n" + getPedidoLocal() + "\n"+ getPDelivery() + "\nFormaPagamento:" + getFormaPagamento()
+				+ "\nValor Total:" + getValor();
 	}
 
 	public PedidoLocal getPedidoLocal() {

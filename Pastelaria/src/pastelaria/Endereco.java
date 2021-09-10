@@ -26,7 +26,7 @@ public class Endereco {
 	}
 
 	public String toString() {
-		return getRua() + ", " + getNumero() + ", " + getBairro + ", " + getCep() + ", obs: "
+		return getRua() + ", " + getNumero() + ", " + getBairro() + ", " + getCep() + ", obs: "
 				+ getObservacoes();
 	}
 

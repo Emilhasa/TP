@@ -13,11 +13,13 @@ public abstract class Pedido {
 	public Date getData() {
 		return data;
 	}
-
+	
+	
 	public void setData(Date data) {
 		this.data = data;
 	}
-
+	
+	
 	public int getHora() {
 		return hora;
 	}

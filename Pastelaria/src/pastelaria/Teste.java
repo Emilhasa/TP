@@ -1,8 +1,7 @@
 package pastelaria;
 
-/*import java.util.*;
-import javax.swing.*;
-*/
+//import java.util.*;
+
 public class Teste {
 	static Pastel p1;
 	static Bebida b1;
@@ -26,7 +25,7 @@ public class Teste {
 		
 		e = new Endereco("St Leste Projeção A", 0, "Gama", 72444240, null);
 		
-		peD = new PedidoDelivery(e, "Emilio", 619999999, "Lucio");
+		peD = new PedidoDelivery(e, "Emílio", 619999999, "Lucio");
 		peD.adicionarPastel(p1);
 		peD.adicionarBebida(b1);
 		
