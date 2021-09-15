@@ -1,7 +1,8 @@
 package pastelaria;
 
-//import java.util.*;
-
+/*import java.util.*;
+import javax.swing.*;
+*/
 public class Teste {
 	static Pastel p1;
 	static Bebida b1;
@@ -11,7 +12,7 @@ public class Teste {
 	static Venda v1, v2;
 	
 	public static void main(String[] args) {
-		p1 = new Pastel("Carne", "Massa, Carne-moida, cebola, piment„o", 10, 4.99);
+		p1 = new Pastel("Carne", "Massa, Carne-moida, cebola, piment√£o", 10, 4.99);
 		b1 = new Bebida("Coca-Cola", 310, 3.99);
 		
 		System.out.println(p1.toString()+"\n");
@@ -23,14 +24,14 @@ public class Teste {
 		p1.editarPastel("Queijo", "Massa, Queijo meia-cura", 9, 4.99);
 		b1.editarBebida("Guarana", 310, 3.49);
 		
-		e = new Endereco("St Leste ProjeÁ„o A", 0, "Gama", 72444240, null);
+		e = new Endereco("St Leste Proje√ß√£o A", 0, "Gama", 72444240, null);
 		
 		peD = new PedidoDelivery(e, "Emilio", 619999999, "Lucio");
 		peD.adicionarPastel(p1);
 		peD.adicionarBebida(b1);
 		
 		v1 = new Venda("PIX", peL);
-		v2 = new Venda("Cart„o Credito", peD);
+		v2 = new Venda("Cart√£o Credito", peD);
 		
 		System.out.println(p1.toString() + "\n");
 		System.out.println(b1.toString() + "\n");

@@ -57,9 +57,9 @@ public class PedidoLocal extends Pedido{
 	}
 	
 	public String toString() {
-		return "*****Pedido Local*****\n\n" + pastel + "\n\n" + bebida + "\nstatus mesa: " + statusMesa + "\nnumero mesa: "
-				+ numeroMesa + "\n\ndata/hora: " + data + "\nnumero pedido: " + numeroPedido + ", status: "
-				+ status + ", observacoes: " + observacoes + "]";
+		return "*****Pedido Local*****\n\n" + getPastel() + "\n\n" + getBebida() + "\nstatus mesa: " + getStatusMesa() + "\nnumero mesa: "
+				+ getNumeroMesa() + "\n\ndata/hora: " + getData() + "\nnumero pedido: " + getNumeroPedido() + ", status: "
+				+ getStatus() + ", observacoes: " + getObservacoes() + "]";
 	}
 	
 

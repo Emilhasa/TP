@@ -17,7 +17,7 @@ public class Bebida extends Produto{
 	}
 
 	public String toString() {
-		return "*****Bebida*****\nnome: " + nome + "\nvolumeBebida: " + volumeBebida + " ml\nvalor: R$" + valor;
+		return "*****Bebida*****\nnome: " + getNome() + "\nvolumeBebida: " + getVolumeBebida() + " ml\nvalor: R$" + getValor();
 	}
 
 	public String getNome() {

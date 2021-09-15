@@ -62,9 +62,9 @@ public class PedidoDelivery extends Pedido {
 	}
 
 	public String toString() {
-		return "\n*****Pedido Delivery*****\n\n" + pastel + "\n\n" + bebida + "\nendereco: " + endereco + "\nnome: " + nome
-				+ "\ntelefone: " + telefone + "\nnome entregador: " + nomeEntregador + "\n\ndata/hora: " + data
-				+ "\nnumero pedido:" + numeroPedido + ", status: " + status + "\nobs:" + observacoes;
+		return "\n*****Pedido Delivery*****\n\n" + getPastel() + "\n\n" + getBebida() + "\nendereco: " + getEndereco() + "\nnome: " + getNome()
+				+ "\ntelefone: " + getTelefone() + "\nnome entregador: " + getNomeEntregador() + "\n\ndata/hora: " + getData()
+				+ "\nnumero pedido:" + getNumeroPedido() + ", status: " + getStatus() + "\nobs:" + getObservacoes();
 	}
 
 	public List<Pastel> getPastel() {
